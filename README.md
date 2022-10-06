@@ -33,30 +33,71 @@ ex00: OK | ex01: OK | ex02: OK | ex03: OK
 ### Exam02 --> 42%
 
 ## Youtube playlists
-[]  https://www.youtube.com/watch?v=eiP5lDkXQT4&list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8&index=18
+
+### Wolfsburg I Accept
+
+[]  https://www.youtube.com/watch?v=eiP5lDkXQT4&list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8&index=16
+
+### shell00
 
 []  https://www.youtube.com/playlist?list=PLxeKVrYoZO6B64HVamfG1d8Jb2XIrNuRO
 
+### shell01
+
 []  https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8
+
+### c00
 
 []  https://www.youtube.com/playlist?list=PLxeKVrYoZO6DNJxUBWIiTO-B6X62SMHVo
 
+### c01
+
 []  https://www.youtube.com/playlist?list=PLxeKVrYoZO6CZlYBPJVZQ_n4AulUhjV4p
+
+### c02
 
 []  https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-
 
+### c03
+
+[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-
+
+### c04
+
+[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-
+
+### c05
+
 []  https://www.youtube.com/playlist?list=PLxeKVrYoZO6CKf2YJ3uiQN6aSzAeqLYlu
+
+### c06
 
 []  https://www.youtube.com/playlist?list=PLVQYiy6xNUxxDlCkkCX262SI90TsllYUW
 
+### c07
+
 []  https://www.youtube.com/playlist?list=PLVQYiy6xNUxzNYF00nlmx624twFlamqLt
+
+### c08
 
 []  https://www.youtube.com/playlist?list=PLxeKVrYoZO6C_4IgEopWvNCYMI1Po3dVY
 
+### c09
+
 []  https://www.youtube.com/watch?v=gtbmNNXcN3s
+
+### c10
+
+[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-
+
+### c11
 
 []  https://www.youtube.com/playlist?list=PLVQYiy6xNUxx8sKygTdqtOPytqN7sb0Vz
 
+### c12
+
 []  https://www.youtube.com/playlist?list=PLVQYiy6xNUxwmUOmyYSaI6gD1UyfF9MSj
+
+### c13
 
 []  https://www.youtube.com/playlist?list=PLVQYiy6xNUxzusAgMiybYwkLvuMFbVat9
