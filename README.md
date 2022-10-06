@@ -1,7 +1,38 @@
 # 2022-Piscine
 42Wolfsburg Piscine repository on completed projects and resources for learning in the future
 
-# Youtube playlists
+## Grades
+
+### C00 --> 77%
+ex00: OK | ex01: OK | ex02: OK | ex03: OK | ex04: OK | ex05: OK | ex06: OK | ex07: Segmentation fault | ex08: Nothing turned in
+
+### C01 --> 100%
+ex00: OK | ex01: OK | ex02: OK | ex03: OK | ex04: OK | ex05: OK | ex06: OK | ex07: OK | ex08: OK
+
+### C02 --> 80%
+ex00: OK | ex01: OK | ex02: OK | ex03: OK | ex04: OK | ex05: OK | ex06: OK | ex07: OK | ex08: OK | ex09: OK | ex10: OK | ex11: KO | ex12: Nothing turned in
+
+### C03 --> 100%
+ex00: OK | ex01: OK | ex02: OK | ex03: OK | ex04: OK | ex05: OK
+
+### C04 --> 70%
+ex00: OK | ex01: OK | ex02: OK | ex03: OK | ex04: Nothing turned in | ex05: Nothing turned in
+
+### C05 --> 80%
+ex00: OK | ex01: OK | ex02: OK | ex03: OK | ex04: OK | ex05: OK | ex06: OK | ex07: OK | ex08: Nothing turned in
+
+### C06 --> 100%
+ex00: OK | ex01: OK | ex02: OK | ex03: OK
+
+### rush00 --> 116%
+### rush01 --> 0%
+### rush02 --> 90%
+
+### Exam00 --> 48%
+### Exam01 --> 48%
+### Exam02 --> 42%
+
+## Youtube playlists
 []  https://www.youtube.com/watch?v=eiP5lDkXQT4&list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8&index=18
 
 []  https://www.youtube.com/playlist?list=PLxeKVrYoZO6B64HVamfG1d8Jb2XIrNuRO
