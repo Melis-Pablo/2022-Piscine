@@ -1,0 +1,313 @@
+#C02_ex00########################################################################################################################################################
+
+
+int main(void)
+{
+	char *src = "Something to copy:)";
+	int	i;
+
+	i = 0;
+	while (src[i] != '\0')
+	{
+		i++;
+	}
+	char dest[i];
+	write(1,dest, i+1);
+	write(1,"\n",1);
+	ft_strcpy(dest,src);
+	write(1,dest, i+1);
+	write(1,"\n",1);
+}
+
+
+#C02_ex01########################################################################################################################################################
+
+
+int main(void)
+{
+	char *src = "Some";
+	int	i;
+	int n;
+	int count_nulls;
+
+	i = 0;
+	while (src[i] != '\0')
+	{
+		i++;
+	}
+	n = 8;
+	char dest[n];
+	write(1,dest, n);
+	write(1,"\n",1);
+	ft_strncpy(dest,src,n);
+	write(1,dest, n);
+	write(1,"\n",1);
+	
+	printf("Size of source array: %d\n", i);
+	printf("Size of destination array: %d\n", n);
+
+	i = 0;
+	count_nulls = 0;
+	while (i < n)
+	{
+		if (dest[i] == '\0')
+		count_nulls++;
+		i++;
+	}
+	printf("Number of zeros to fill destination array: %d\n", count_nulls);	
+}
+
+#C02_ex02########################################################################################################################################################
+
+
+int main(void)
+{
+	char *string_test1 = "SomeTZingOrOtherOneWayOrNOtxxxx";
+	char *string_test2 = "";
+	char *string_test3 = "Some thing";
+	char *string_test4 = ";Something";
+	char *string_test5 = "SomeGThing.";
+
+	char result;
+	result = ft_str_is_alpha(string_test1) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_alpha(string_test2) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_alpha(string_test3) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_alpha(string_test4) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+	result = ft_str_is_alpha(string_test5) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+}
+
+#C02_ex03########################################################################################################################################################
+
+
+int main(void)
+{
+	char *string_test1 = "SomeTZingOrOtherOneWayOrNOtxxxx";
+	char *string_test2 = "";
+	char *string_test3 = "0123457122540000";
+	char *string_test4 = "12Monkeys";
+	char *string_test5 = "99 ";
+
+	char result;
+	result = ft_str_is_numeric(string_test1) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_numeric(string_test2) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_numeric(string_test3) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_numeric(string_test4) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+	result = ft_str_is_numeric(string_test5) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+}
+
+#C02_ex04########################################################################################################################################################
+
+
+int main(void)
+{
+	char *string_test1 = "SomeTZingOrOtherOneWayOrNOtxxxx";
+	char *string_test2 = "";
+	char *string_test3 = "onlylowerzzzzz";
+	char *string_test4 = " lower";
+	char *string_test5 = "lower12 ";
+
+	char result;
+	result = ft_str_is_lowercase(string_test1) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_lowercase(string_test2) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_lowercase(string_test3) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_lowercase(string_test4) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+	result = ft_str_is_lowercase(string_test5) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+}
+
+#C02_ex05########################################################################################################################################################
+
+
+int main(void)
+{
+	char *string_test1 = "SomeTZingOrOtherOneWayOrNOtxxxx";
+	char *string_test2 = "";
+	char *string_test3 = "ABCDEFZXXAOI";
+	char *string_test4 = " ADD";
+	char *string_test5 = "NOT* ";
+
+	char result;
+	result = ft_str_is_uppercase(string_test1) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_uppercase(string_test2) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_uppercase(string_test3) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_uppercase(string_test4) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+	result = ft_str_is_uppercase(string_test5) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+}
+
+#C02_ex06########################################################################################################################################################
+
+
+int main(void)
+{
+	char *string_test1 = "This is totally printable\\*#$%@^&***||//";
+	char *string_test2 = "";
+	char *string_test3 = "This is not\n";
+	char *string_test4 = "Nor\tthis";
+	char *string_test5 = "NOT* J_u_s_t kidding, it is:)";
+
+	char result;
+	result = ft_str_is_printable(string_test1) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_printable(string_test2) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_printable(string_test3) + '0';
+	write(1, &result, 1);
+	write(1, "  ", 2);
+	result = ft_str_is_printable(string_test4) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+	result = ft_str_is_printable(string_test5) + '0';
+	write(1, &result, 1);	
+	write(1, "  ", 2);
+}
+
+#C02_ex07########################################################################################################################################################
+
+int main(void)
+{
+	char string_test1[] = "SomEThing to uppercase:)";
+	int	i;
+
+	i = 0;
+	while (string_test1[i] != '\0')
+	{
+		i++;
+	}
+	
+	write(1, ft_strupcase(string_test1), i);
+	write(1, "\n", 1);
+}
+
+#C02_ex08########################################################################################################################################################
+
+int main(void)
+{
+	char string_test1[] = "SomEThing to LOWERCase:)";
+	int	i;
+
+	i = 0;
+	while (string_test1[i] != '\0')
+	{
+		i++;
+	}
+	
+	write(1, ft_strlowcase(string_test1), i);
+	write(1, "\n", 1);
+}
+
+#C02_ex09########################################################################################################################################################
+
+int main(void)
+{
+	char string_test1[] = "salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un";
+	int	i;
+
+	i = 0;
+	while (string_test1[i] != '\0')
+	{
+		i++;
+	}
+	
+	write(1, ft_strcapitalize(string_test1), i);
+	write(1, "\n", 1);
+}
+
+
+#C02_ex10########################################################################################################################################################
+
+int main(void)
+{
+	char string_test1[] = "This is ";
+	unsigned int	i;
+	unsigned int size;
+
+	i = 0;
+	while (string_test1[i] != '\0')
+	{
+		i++;
+	}
+	size = 10;
+	if (size > i)
+		size = i + 1;
+	char dest[size];
+	ft_strlcpy(dest, string_test1, size);
+	printf("Size is %d\n", i);
+	write(1, dest, size);
+	write(1, "\n", 1);
+	printf("Size of copied string is %d\n", size);
+}
+
+#C02_ex11########################################################################################################################################################
+
+int main(void)
+{
+	char *string_test1 = "This is totally printable\\*#$%@^&***||//";
+	char *string_test2 = " ";
+	char *string_test3 = "This is not\n";
+	char *string_test4 = "Nor\tthis \v";
+	char *string_test5 = "NOT* J_u_s_t kidding, it is:)";
+
+	ft_putstr_non_printable(string_test1);
+	write(1, "\n", 1);
+	ft_putstr_non_printable(string_test2);
+	write(1, "\n", 1);
+	ft_putstr_non_printable(string_test3);
+	write(1, "\n", 1);
+	ft_putstr_non_printable(string_test4);
+	write(1, "\n", 1);
+	ft_putstr_non_printable(string_test5);
+	write(1, "\n", 1);
+}
+
+#C02_ex12########################################################################################################################################################
+
+
+int	main(void)
+{
+	char	*string;
+
+	string = "Bonjour touss\t\n\tc \0 something something";
+	ft_print_memory(string, 50);
+	return (0);
+}

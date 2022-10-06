@@ -1,0 +1,144 @@
+#C05_ex00########################################################################################################################################################
+
+#include <stdio.h>
+int main(void)
+{
+	int n = 5;
+	int factorial = ft_iterative_factorial(n);
+	printf("%d\n", factorial);
+}
+
+#C05_ex01########################################################################################################################################################
+
+#include <stdio.h>
+int main(void)
+{
+	int n = 5;
+	int factorial = ft_recursive_factorial(n);
+	printf("%d\n", factorial);
+	n = 1;
+	factorial = ft_recursive_factorial(n);
+	printf("%d\n", factorial);
+	n = 0;
+	factorial = ft_recursive_factorial(n);
+	printf("%d\n", factorial);
+	n = -6;
+	factorial = ft_recursive_factorial(n);
+	printf("%d\n", factorial);
+}
+
+#C05_ex02########################################################################################################################################################
+
+
+#include <stdio.h>
+int main(void)
+{
+	int n = 5;
+	int nb = -3;
+	int factorial = ft_iterative_power(nb,n);
+	printf("%d\n", factorial);
+	n = 1;
+	factorial = ft_iterative_power(nb,n);
+	printf("%d\n", factorial);
+	n = 0;
+	factorial = ft_iterative_power(nb,n);
+	printf("%d\n", factorial);
+	n = -6;
+	factorial = ft_iterative_power(nb,n);
+	printf("%d\n", factorial);
+}
+
+#C05_ex03########################################################################################################################################################
+
+
+#include <stdio.h>
+int main(void)
+{
+	int n = 5;
+	int nb = -2;
+	int factorial = ft_recursive_power(nb,n);
+	printf("%d\n", factorial);
+	n = 1;
+	factorial = ft_recursive_power(nb,n);
+	printf("%d\n", factorial);
+	n = 0;
+	factorial = ft_recursive_power(nb,n);
+	printf("%d\n", factorial);
+	n = -6;
+	factorial = ft_recursive_power(nb,n);
+	printf("%d\n", factorial);
+}
+#C05_ex04########################################################################################################################################################
+
+#include <stdio.h>
+int main()
+{
+	int n = 0;
+	printf("%d\n", ft_fibonacci(n));
+	n = 1;
+	printf("%d\n", ft_fibonacci(n));
+	n = 3;
+	printf("%d\n", ft_fibonacci(n));
+	n = 10;
+	printf("%d\n", ft_fibonacci(n));
+	n = -2;
+	printf("%d\n", ft_fibonacci(n));
+	n = 2;
+	printf("%d\n", ft_fibonacci(n));
+}
+
+#C05_ex05########################################################################################################################################################
+
+#include <stdio.h>
+int main()
+{
+	int i;
+	i = -5;
+	while (++i < 50)
+		printf("%d: (%d);\n", i, ft_sqrt(i));
+}
+
+#C05_ex06########################################################################################################################################################
+
+#include <stdio.h>
+int main()
+{
+	int i;
+	i = -5;
+	while (++i < 50)
+		if (ft_is_prime(i) == 1)
+			printf("%d is prime\n", i);
+		else 
+			printf("---not-----");
+}
+
+#C05_ex07########################################################################################################################################################
+
+
+#include <stdio.h>
+int main()
+{
+	int i;
+	i = -5;
+	while (++i < 50)
+		printf("%d: ->>>> %d\n", i, ft_find_next_prime(i));
+}
+
+#C05_ex08########################################################################################################################################################
+
+#include <unistd.h>
+void	print_solution(int number)
+{
+	char	digit;
+
+	digit = number % 10 + '0';
+	if (number / 10 > 0)
+		print_solution(number / 10);
+	write(1, &digit, 1);
+}
+
+int main(void)
+{
+	print_solution(ft_ten_queens_puzzle());
+	write(1, "\n", 1);
+}

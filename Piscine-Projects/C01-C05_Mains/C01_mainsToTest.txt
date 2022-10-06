@@ -1,0 +1,176 @@
+#C01_ex00########################################################################################################################################################
+int main(void)
+{
+	int *nbr;
+	int number;
+
+	number = 12;
+	nbr = &number;
+
+	char values[2];
+	values[0] = number / 10 + '0';
+	values[1] = number % 10 +'0';
+ 	write(1, &values,2);
+	write(1, "\n", 1);
+	ft_ft(nbr);
+	values[0] = number / 10 + '0';
+	values[1] = number % 10 +'0';
+	write(1, &values,2);
+	write(1, "\n", 1);
+}
+
+
+#C01_ex01########################################################################################################################################################
+int main(void)
+{
+	int *********nbr1;
+	int ********nbr2;
+	int *******nbr3;
+	int ******nbr4;
+	int *****nbr5;
+	int ****nbr6;
+	int ***nbr7;
+	int **nbr8;
+	int *nbr9;
+	
+	int number;
+	number = 12;
+	
+	nbr9 = &number;
+	nbr8 = &nbr9;
+	nbr7 = &nbr8;
+	nbr6 = &nbr7;
+	nbr5 = &nbr6;
+	nbr4 = &nbr5;
+	nbr3 = &nbr4;
+	nbr2 = &nbr3;
+	nbr1 = &nbr2;
+
+	char values[2];
+	values[0] = number / 10 + '0';
+	values[1] = number % 10 +'0';
+ 	write(1, &values,2);
+	write(1, "\n", 1);
+
+	ft_ultimate_ft(nbr1);
+	
+	values[0] = number / 10 + '0';
+	values[1] = number % 10 +'0';
+	write(1, &values,2);
+	write(1, "\n", 1);
+}
+
+#C01_ex02########################################################################################################################################################
+int main(void)
+{
+	int a,b;
+	a=12;
+	b=-5;
+	printf("a is %d ",a);
+	printf("b is %d\n",b);
+	ft_swap(&a, &b);
+	printf("a is %d ",a);
+	printf("b is %d\n",b);
+	return (0);
+}
+
+#C01_ex03########################################################################################################################################################
+int main(void)
+{
+	int div, mod;
+	div = -2147483648;
+	mod = -2147483648;
+	ft_div_mod(10,2,&div,&mod);
+	printf("div = %d \n mod = %d\n", div, mod);
+	div = -2147483648;
+	mod = -2147483648;
+	ft_div_mod(10,4,&div,&mod);
+    printf("div = %d \n mod = %d\n", div, mod);
+	div = -2147483648;
+	mod = -2147483648;
+	ft_div_mod(10,0,&div,&mod);
+	printf("div = %d \n mod = %d\n", div, mod);
+}
+
+#C01_ex04########################################################################################################################################################
+int main(void)
+{
+	int a,b;
+	a = 9;
+	b =2;
+	ft_ultimate_div_mod(&a,&b);
+	printf("a div b = %d, a mod b = %d\n",a,b);
+	a = 10;
+	b =0;
+	ft_ultimate_div_mod(&a,&b);
+	printf("a div b = %d, a mod b = %d\n",a,b);
+}
+
+#C01_ex05########################################################################################################################################################
+int main(void)
+{
+	ft_putstr("Hello, how are you?");
+}
+
+#C01_ex06########################################################################################################################################################
+int main(void)
+{
+		int size;
+		char to_print;
+		size = ft_strlen("Hello!");
+		to_print = size +'0';
+		write(1,&to_print,1);
+		write(1,"\n",1);
+
+		size = ft_strlen("");
+		to_print = size +'0';
+		write(1,&to_print,1);
+		write(1,"\n",1);
+		
+}
+
+#C01_ex07########################################################################################################################################################
+
+int main(void)
+{
+	int tab[] = {9,2,7,4,5};
+	int i=0;
+	int size = sizeof(tab)/sizeof(tab[0]);
+	while (i < size)
+	{
+		printf("%d:%d ",i,tab[i]);
+		i++;
+	}
+	
+	ft_rev_int_tab(tab,size);
+	printf("\n");
+	i = 0;
+	while (i < size)
+	{
+		printf("%d:%d ",i,tab[i]);
+		i++;
+	}
+	printf("\n");
+}
+
+#C01_ex08########################################################################################################################################################
+int main(void)
+{
+	int tab[] = {9,7,8,10,1,2,4};
+	int i=0;
+	int size = sizeof(tab)/sizeof(tab[0]);
+	while (i < size)
+	{
+		printf("%d:%d ",i,tab[i]);
+		i++;
+	}
+	ft_sort_int_tab(tab,size);
+	printf("\n");
+	i = 0;
+	while (i < size)
+	{
+		printf("%d:%d ",i,tab[i]);
+		i++;
+	}
+	printf("\n");
+}

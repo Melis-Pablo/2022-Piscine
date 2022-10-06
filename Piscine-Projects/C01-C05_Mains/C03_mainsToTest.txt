@@ -1,0 +1,114 @@
+#C03_ex00########################################################################################################################################################
+
+int main(void)
+{
+	char *first = "Equal";
+	char *second = "1Equally";
+	int decision;
+
+	decision = ft_strcmp(first, second);
+	if (decision > 0)
+		write(1, "First string is greater than second\n", 36);
+	else 
+	if (decision < 0)
+		write(1, "Second string is greater than first\n", 36);
+	else
+		write(1, "They are equal\n", 15);
+}
+
+#C03_ex01########################################################################################################################################################
+
+int main(void)
+{
+	char *first = "Equal";
+	char *second = "1Equally";
+	int decision;
+
+	decision = ft_strncmp(first, second,2);
+	if (decision > 0)
+		write(1, "First string is greater than second\n", 36);
+	else 
+	if (decision < 0)
+		write(1, "Second string is greater than first\n", 36);
+	else
+		write(1, "They are equal\n", 15);
+}
+
+
+#C03_ex02########################################################################################################################################################
+
+int main(void)
+{
+	char src[] = "Append this :)";
+	char dest[] = "To this";
+	int i =0, j = 0;
+	while (src[i] != '\0') i++;
+	while (dest[j] != '\0') j++;
+	printf("The total length should be %d\n", i+j);
+	write(1, ft_strcat(dest, src), i+j);
+	write(1,"\n",1);
+	j = 0;
+	while (dest[j] != '\0') j++;
+	printf("The total length is %d\n", j);
+	
+}
+
+#C03_ex03########################################################################################################################################################
+
+
+int main(void)
+{
+	char src[] = "Append this :)";
+	char dest[] = "To this ";
+	unsigned int i =0, j = 0;
+	while (src[i] != '\0') i++;
+	while (dest[j] != '\0') j++;
+	unsigned int n = 15;
+	
+	printf("The total length should be %d\n", j + n);
+	write(1, ft_strncat(dest, src, n), j + i);
+	write(1,"\n",1);
+	i = 0;
+	while (dest[i] != '\0') i++;
+	printf("The total length is %d\n", i);
+	if (j + n > i)
+	write(1,"Source string is smaller then desired bytes to copy\n",52);
+}
+
+#C03_ex04########################################################################################################################################################
+
+int main(void)
+{
+	char src[] = "Search here:)";
+	char to_find[] = "earch here:) ";
+	unsigned int i =0;
+	while (src[i] != '\0') i++;
+ 
+	char *found = ft_strstr(src, to_find);
+	i = 0;
+	if (found != NULL){
+	    	while (found[i] != '\0') i++;
+	}
+	if (i > 0)
+		write(1, found, i);
+	else
+		write(1, "It's not there", 14);
+	write(1,"\n",1);
+}
+
+#C03_ex05########################################################################################################################################################
+
+
+int main(void)
+{
+	char src[] = "Append this :)";
+	char dest[20] = "To this";
+	unsigned int i =0, j = 0;
+	unsigned int size = 20;
+	while (src[i] != '\0') i++;
+	while (dest[j] != '\0') j++;
+	write(1,dest, size);
+	printf("The necessary size should be %d\n", i+j+1);
+	printf("I will give it %d places to copy too\n", size);	
+	printf("The new string length is %d\n", ft_strlcat(dest,src,size));	
+}

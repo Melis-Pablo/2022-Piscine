@@ -1,0 +1,109 @@
+#C04_ex00########################################################################################################################################################
+
+int main(void)
+{
+	char *test = "Something to test";
+	char *test1 ="";
+	char *test2 ="Something \0";
+
+	printf("The first size: %d\n", ft_strlen(test));
+	printf("The second size: %d\n", ft_strlen(test1));
+	printf("The third size: %d\n", ft_strlen(test2));
+}
+
+#C04_ex01########################################################################################################################################################
+
+int main(void)
+{
+	char *test = "Something to test";
+	char *test1 ="";
+	char *test2 ="Something \0";
+
+	ft_putstr(test);
+	write(1,"\n",1);
+	ft_putstr(test1);
+	write(1,"\n",1);
+	ft_putstr(test2);
+	write(1,"\n",1);
+	
+}
+
+#C04_ex02########################################################################################################################################################
+
+int main(void)
+{
+	ft_putnbr(-2147483648);
+	write(1,"\n",1);
+	ft_putnbr(2147483647);
+	write(1,"\n",1);
+	ft_putnbr(-214);
+	write(1,"\n",1);
+	ft_putnbr(0);
+	write(1,"\n",1);
+	ft_putnbr(895);
+	write(1,"\n",1);
+
+}
+
+#C04_ex03########################################################################################################################################################
+
+
+int main(void)
+{
+	char *value = "  \t\n -+---4582abc45";
+	char *value1 = "---4582abc45";
+	char *value2 = "asd4582abc45";
+	char *value3 = "";
+	int number;
+	number = ft_atoi(value);
+	printf("this is the number: %d\n", number);
+	number = ft_atoi(value1);
+	printf("this is the number: %d\n", number);
+	number = ft_atoi(value2);
+	printf("this is the number: %d\n", number);
+	number = ft_atoi(value3);
+	printf("this is the number: %d\n", number);
+	
+}
+
+#C04_ex04########################################################################################################################################################
+
+
+
+int main(void)
+{
+	int number = 42;
+	char *base = "0123456789abcdef";
+	ft_putnbr_base(number, base);
+	write(1,"\n", 1);
+	number = 42;
+	base = "01";
+	ft_putnbr_base(number, base);
+	write(1,"\n", 1);
+	number = 42;
+	base = "poneyvif";
+	ft_putnbr_base(number, base);
+	write(1,"\n", 1);
+	number = 42;
+	base = "poneiyvif";
+	ft_putnbr_base(number, base);
+	write(1,"\n", 1);
+	base = "pone+yvif";
+	ft_putnbr_base(number, base);
+	write(1,"\n", 1);
+	base = "";
+	ft_putnbr_base(number, base);
+	write(1,"\n", 1);
+	base = "o";
+	ft_putnbr_base(number, base);
+	write(1,"\n", 1);
+}
+
+#C04_ex05########################################################################################################################################################
+
+int main(void)
+{
+	char *string= "  ---++101310abcd";
+	char *base ="01";
+	printf("lets see: %d\n", ft_atoi_base(string, base));
+}
