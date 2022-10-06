@@ -1,0 +1,7 @@
+Scenario 1 - Unresponsive Evaluator:
+
+If the person evaluating my project does not show up at the set time, 
+i would send them a message asking them if they were still available and if everything is ok,
+sometimes unexpected things can happen so first i would message them to check on them and also ask
+them if the needed more time before the evaluation, if after 15 min or more there is no answer i 
+unfortunately would mark them as absent.
