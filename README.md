@@ -32,72 +32,38 @@ ex00: OK | ex01: OK | ex02: OK | ex03: OK
 ### Exam01 --> 48%
 ### Exam02 --> 42%
 
-## Youtube playlists
+## Youtube Resources Videos
 
-### Wolfsburg I Accept
+- ### [Wolfsburg I Accept](https://www.youtube.com/watch?v=eiP5lDkXQT4&list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8&index=16)
 
-[]  https://www.youtube.com/watch?v=eiP5lDkXQT4&list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8&index=16
+- ### [Shell00](https://www.youtube.com/playlist?list=PLxeKVrYoZO6B64HVamfG1d8Jb2XIrNuRO)
 
-### shell00
+- ### [Shell01](https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8)
 
-[]  https://www.youtube.com/playlist?list=PLxeKVrYoZO6B64HVamfG1d8Jb2XIrNuRO
+- ### [C00](https://www.youtube.com/playlist?list=PLxeKVrYoZO6DNJxUBWIiTO-B6X62SMHVo)
 
-### shell01
+- ### [C01](https://www.youtube.com/playlist?list=PLxeKVrYoZO6CZlYBPJVZQ_n4AulUhjV4p)
 
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8
+- ### [C02](https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-)
 
-### c00
+- ### [C03](https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-)
 
-[]  https://www.youtube.com/playlist?list=PLxeKVrYoZO6DNJxUBWIiTO-B6X62SMHVo
+- ### [C04](https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-)
 
-### c01
+- ### [C05](https://www.youtube.com/playlist?list=PLxeKVrYoZO6CKf2YJ3uiQN6aSzAeqLYlu)
 
-[]  https://www.youtube.com/playlist?list=PLxeKVrYoZO6CZlYBPJVZQ_n4AulUhjV4p
+- ### [C06](https://www.youtube.com/playlist?list=PLVQYiy6xNUxxDlCkkCX262SI90TsllYUW)
 
-### c02
+- ### [C07](https://www.youtube.com/playlist?list=PLVQYiy6xNUxzNYF00nlmx624twFlamqLt)
 
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-
+- ### [C08](https://www.youtube.com/playlist?list=PLxeKVrYoZO6C_4IgEopWvNCYMI1Po3dVY)
 
-### c03
+- ### [C09](https://www.youtube.com/watch?v=gtbmNNXcN3s)
 
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-
+- ### [C10](https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-)
 
-### c04
+- ### [C11](https://www.youtube.com/playlist?list=PLVQYiy6xNUxx8sKygTdqtOPytqN7sb0Vz)
 
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-
+- ### [C12](https://www.youtube.com/playlist?list=PLVQYiy6xNUxwmUOmyYSaI6gD1UyfF9MSj)
 
-### c05
-
-[]  https://www.youtube.com/playlist?list=PLxeKVrYoZO6CKf2YJ3uiQN6aSzAeqLYlu
-
-### c06
-
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxxDlCkkCX262SI90TsllYUW
-
-### c07
-
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxzNYF00nlmx624twFlamqLt
-
-### c08
-
-[]  https://www.youtube.com/playlist?list=PLxeKVrYoZO6C_4IgEopWvNCYMI1Po3dVY
-
-### c09
-
-[]  https://www.youtube.com/watch?v=gtbmNNXcN3s
-
-### c10
-
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxz5wbzZn4tfUhF4djgzscB-
-
-### c11
-
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxx8sKygTdqtOPytqN7sb0Vz
-
-### c12
-
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxwmUOmyYSaI6gD1UyfF9MSj
-
-### c13
-
-[]  https://www.youtube.com/playlist?list=PLVQYiy6xNUxzusAgMiybYwkLvuMFbVat9
+- ### [C13](https://www.youtube.com/playlist?list=PLVQYiy6xNUxzusAgMiybYwkLvuMFbVat9)
