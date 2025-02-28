@@ -1,7 +1,5 @@
 # 42 Piscine Journey (2022)
 
-![42 Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/320px-42_Logo.svg.png)
-
 ## 📚 Overview
 
 This repository documents my journey through the intensive 42 Wolfsburg Piscine - a month-long coding bootcamp that serves as the selection process for 42's software engineering program. The Piscine (French for "swimming pool") is designed to immerse candidates in coding challenges, teaching fundamental programming concepts through intense daily assignments, weekly team projects (rushes), and exams.
